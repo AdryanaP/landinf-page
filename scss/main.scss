@@ -105,14 +105,11 @@ h3 {
   background-color: $secondary;
   color: white;
   padding: 2rem;
-
-  #detail-grey {
-    position: absolute;
-    right: 0;
-    top: 140rem;
-    width: 46px;
-
-  }
+  background-image: url("../assets/detail-grey.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-size: 60px;
 
   .banner-content {
     max-width: 50rem;
@@ -553,14 +550,8 @@ footer {
   }
 
   #banner-dropdown {
-    background-position: 110% 125%;
-    background-size: 200px;
-
-    #detail-grey {
-      top: 90rem;
-      width: 130px;
-    }
-
+    background-size: 120px;
+    
     .banner-content {
       display: flex;
       flex-direction: column;
@@ -743,12 +734,6 @@ footer {
     #yellow-office {
       left: -4rem;
       top: 7.5rem;
-    }
-  }
-
-  #banner-dropdown {
-    #detail-grey {
-      top: 142rem;
     }
   }
 

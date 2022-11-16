@@ -93,12 +93,11 @@ h3 {
   background-color: #03B5B0;
   color: white;
   padding: 2rem;
-}
-#banner-dropdown #detail-grey {
-  position: absolute;
-  right: 0;
-  top: 140rem;
-  width: 46px;
+  background-image: url("../assets/detail-grey.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-size: 60px;
 }
 #banner-dropdown .banner-content {
   max-width: 50rem;
@@ -472,12 +471,7 @@ footer img {
     height: 150px;
   }
   #banner-dropdown {
-    background-position: 110% 125%;
-    background-size: 200px;
-  }
-  #banner-dropdown #detail-grey {
-    top: 90rem;
-    width: 130px;
+    background-size: 120px;
   }
   #banner-dropdown .banner-content {
     display: flex;
@@ -611,9 +605,6 @@ footer img {
   #banner-office #yellow-office {
     left: -4rem;
     top: 7.5rem;
-  }
-  #banner-dropdown #detail-grey {
-    top: 142rem;
   }
   #banner-slider #slider-content {
     gap: 0;
