@@ -470,7 +470,7 @@ h3 {
     margin: 7rem auto;
     border-radius: 100%;
     text-align: center;
-    border: 2px solid;
+    border: 2px solid black;
     width: 8rem;
     background-color: $primary;
     font-size: 11px;
@@ -551,7 +551,7 @@ footer {
 
   #banner-dropdown {
     background-size: 120px;
-    
+
     .banner-content {
       display: flex;
       flex-direction: column;

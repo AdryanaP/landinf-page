@@ -2,6 +2,7 @@ const changeCircle = (pressBtn, color) => {
   switch (color) {
     case "red":
       $("#inner-circle").css("background", "#FF3737");
+      $("#inner-circle").css("color", "white");
       $("#inner-circle").removeClass("grey-circle");
       $("#text-red").css("display", "block");
       $("#text-yellow").css("display", "none");
@@ -15,6 +16,7 @@ const changeCircle = (pressBtn, color) => {
       break;
     case "yellow":
       $("#inner-circle").css("background", "#FFCC33");
+      $("#inner-circle").css("color", "black");
       $("#inner-circle").removeClass("grey-circle");
       $("#text-red").css("display", "none");
       $("#text-yellow").css("display", "block");
@@ -28,6 +30,7 @@ const changeCircle = (pressBtn, color) => {
       break;
     case "grey":
       $("#inner-circle").css("background", "#707070");
+      $("#inner-circle").css("color", "white");
       $("#inner-circle").addClass("grey-circle");
       $("#text-red").css("display", "none");
       $("#text-yellow").css("display", "none");
